@@ -12,7 +12,7 @@ $sql = "SELECT * FROM users WHERE id_users='$id_users'";
 $query = mysqli_query($koneksi, $sql);
 $data = mysqli_fetch_assoc($query);
 ?>
-
+ 
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -58,6 +58,7 @@ if(isset($_POST['update'])) {
     }
 }
 ?>
+
 <!-- Bootstrap Bundle JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
